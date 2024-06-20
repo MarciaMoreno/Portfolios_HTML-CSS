@@ -1,0 +1,93 @@
+	
+	/****http://www.science-bluesky.com ***REVISÃO = 07/06/2019 sexta-feira 23h16min***
+	Formato CSS: Estilo_Blue.css - BODY - São Paulo/22-10-2018 */
+		BODY{ background-color: #B0C4DE; color: #666; }
+		ul,li{ list-style: none;}
+		h1,h2,h3,h4,h5 { color: #fff;}
+		a {text-decoration: none;}
+		label text{ width: 142px; }
+		
+	/****http://www.science-bluesky.com ***REVISÃO = 07/06/2019 sexta-feira 23h16min***
+	Formato CSS: Estilo_Blue.css - HEADER - São Paulo/22-10-2018 */
+		.btn-social { margin-left: 10%;	}
+		.btn-social ul li { display: inline-block;}
+		#boton{
+			width: 232px;
+			padding: 4px 22px 4px 22px;
+			font-family: Brush Script MT, Eduardian Script ITC;
+			font-size: 42px;
+			border-radius: 16px;	
+			border: 8px dotted #E6E6FA; 
+			background-color: #fff;	
+			color: #515245;		
+		}	
+		#boton:hover{border: 8px groove #617485; color: #617485;}
+		#logotipo{
+			font-size: 52px;
+			text-align: center;
+		}
+		#letra{
+			font-family: Brush Script MT, Eduardian Script ITC;
+			font-size: 142px;
+			font-style: italic;
+			box-shadow: 0 40px 80px 15px #4682B4;
+			border-radius: 26px;
+		}
+		#social{
+			width: 52px;
+			border-radius: 12px;
+			-webkit-box-shadow: 0 40px 15px #F0FFFF;
+			box-shadow: 0 30px 15px #4682B4;
+		}
+		#social:hover{ 	-webkit-box-shadow: 0 20px 40px 15px #fff;  box-shadow: 0 30px 80px 15px #fff; }
+		.menu ul li{ display: inline-block;}
+		.tito{ 
+			text-align: center; 
+			text-transform: capitalize;
+			font-size: 32px;
+			font-style: bold;
+			font-family: Bodoni MT Poster Compressed ;
+			letter-spacing: 8px;
+		}
+		
+		.topo-pagina ul li{ display: inline-block; }
+		.topo-pagina h1{ text-align: center; margin: 20% 0% 10% 50%; }
+				
+	/****http://www.science-bluesky.com ***REVISÃO = 07/06/2019 sexta-feira 23h16min***
+	Formato CSS: Estilo_Blue.css - SECTION - São Paulo/22-10-2018 */
+		.box{ background-color: #607B8B; color: #fff; }
+		.grade {background-color: #fff;}
+		#contact{ width: 422px; height: 22px; font-size: 18px; }
+		#label { 
+			margin-left: 42px; 
+			background-color: #607B8B; 
+			border-radius: 12px;
+			padding: 4px;
+			border-radius: 12px;
+			color: #fff;
+		}
+		#text_box { width: 422px; height: 122px; }
+		.tito2{ 
+			margin-left: 22px;
+			font-style: Italic;
+			font-family: Lucida Handwriting ;
+			font-size: 18px;
+			color: #fff;
+			background-color: #607B8B;
+			padding: 12px;
+			border-radius: 12px;
+		}
+		.wrap{
+			height: 622px;
+			background-image: url(../Imagens/lake.jpeg);
+			background-repeat: no-repeat;			
+		}
+	
+	/****http://www.science-bluesky.com ***REVISÃO = 07/06/2019 sexta-feira 23h16min***
+	Formato CSS: Estilo_Blue.css - FOOTER - São Paulo/22-10-2018 */
+	
+		FOOTER { clear: both; text-align: center; }
+	
+	
+	
+	
