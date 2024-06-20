@@ -1,0 +1,39 @@
+﻿
+/***MATERIAL DE APOIO CSS - Arquivo divigrid para alinhamento de páginas web. 
+Atualizado: MarciaMoreno - Nazaré do Piauí/PI - 21/05/2024 - BRASIL
+
+	**1920px é a largura da página Web (resolução maxima)**/	
+	
+	.flex{ 
+		flex-wrap: wrap; 
+		display: flex; 
+		max-width: 100%; 
+		margin: 0 auto;
+	}
+	.linha{ 
+		width: 100%;
+		flex-wrap: wrap; 
+		display: flex; 
+		min-width: 10%; 
+		margin: 0 auto;
+		padding: 10px;
+		margin-left: 15%;
+	}
+	.flex > div{ flex: 1 1 450px;}	
+	.linha > div{ flex: 1 1 450px;}	
+	
+/***************************************************************************/
+/***Inserindo as partições em blocos da página...**/
+/***Ou utilizando a largura atual da pagina dividido por 12 partes... 
+/***Este resultado sera o col1 e multiplicando pelos col demais...**/
+
+	.col1{ width: 10%;}
+	.col2{ width: 20%;}
+	.col3{ width: 30%;}
+	.col4{ width: 40%;}
+	.col5{ width: 50%;}
+	.col6{ width: 60%;}	
+	.col7{ width: 70%;}
+	.col8{ width: 80%;}
+	.col9{ width: 90%;}
+	.col10{ width: 98%;}

@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<HTML xmlns="http://www.w3.org/1999/xhtml">
+		<HEAD>
+			<META CHARSET="utf-8" />
+			<META http-equiv="Content-type" content="text/html" />
+			<META NAME="keywords" CONTENT=" " />
+			<META NAME="description" CONTENT=" " />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<TITLE>Blue Sky (Research TEAM)</TITLE>
+			<LINK REL="stylesheet" TYPE="text/css" HREF="Estilo-Blue.css" />
+			<LINK REL="stylesheet" TYPE="text/css" HREF="divgrid.css" />
+			<LINK REL="Stylesheet" HREF="css/Estilo-Blue.css" />
+			<LINK REL="Stylesheet" HREF="css/divgrid.css" />
+		</HEAD>
+		
+		<BODY>			
+			<header>
+				<br><br>
+				<div class="linha menu">				
+					<div class="col9">
+						<h1 id="logotipo"><B id="letra">B</B>lue <B id="letra">S</B>ky</h1>							
+					<br><br>
+					</div>						
+					<div class="col3">						
+						<ul>								
+							<li><a href="#"><img id="social"  src="Objeto/whatsup.jpg" alt="Whatsapp"></a></li>
+							<li><a href="#"><img id="social" src="Objeto/twitter.png" alt="Tweeter"></a></li>
+							<li><a href="#"><img id="social" src="Objeto/skype.png" alt="Skype team"></a></li>
+						</ul>						
+					</div>								
+				</div>
+				<div class="linha tito">
+					<p>Science and Technology Research Team</p>
+				</div>
+				<hr>	
+				<div class="linha">
+					<nav class="menu">
+						<ul>
+							<li><a href="index.html"><input id="boton" type="button" name="oneButton" value="HOME" /></a></li>
+							<li><a href="team-research.html"><input id="boton" type="button" name="oneButton" value="Grupo docente" /></a></li>
+							<li><a href="lab-work.html"><input id="boton" type="button" name="oneButton" value="Laboratório" /></a></li>
+							<li><a href="expedicao.html"><input id="boton" type="button" name="oneButton" value="Expedição" /></a></li>
+							<li><a href="acervo.html"><input id="boton" type="button" name="oneButton" value="Acervo" /></a></li>	
+							<li><a href="contato.html"><input id="boton" type="button" name="oneButton" value="Fale Conosco" /></a></li>		
+						</UL>
+					</nav>
+				</div>
+			</header>
+			<SECTION class="linha wrap">
+				<div class="login coluna col12">
+					<form method="POST" action="cadastro.php">
+						<label for="inputEmail" class="sr-only">Login</label><input type="text" name="login" id="login"><br><br>
+						<label>Senha</label><input type="password" name="senha" id="senha"><br><br>
+						<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+					</form>
+				</div>
+				<p class="text_center text_danger">
+					<?php if(isset($_SESSION['loginErro'])){
+						echo $_SESSION['loginErro'];
+						unset($_SESSION['loginErro']);
+					}?>
+				</p>
+			</SECTION>
+			<br><br>
+			<FOOTER>
+				<div class="linha temp_foot">
+					<p>Copyright © 2019-2021 - <b class="title_foot"> Blue Sky (Science & Tecnology)</b></p>
+				</div>
+			</FOOTER>	
+			<br>
+		</BODY>
+	</HTML>
