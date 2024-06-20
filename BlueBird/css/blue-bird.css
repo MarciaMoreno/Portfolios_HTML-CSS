@@ -1,0 +1,154 @@
+﻿
+	/****http://www.bluebird-pet.com.br  ***REVISÃO = 8/06/2019 Sábado 17h59min***
+	Formato CSS: blue-bird.css - BODY - São Paulo/22-10-2018 */
+		BODY{ background-color: #FFEC8B; }
+		a:link, a:visited { color: #FFFFFF; text-decoration: none; }
+		a:hover { text-decoration: underline; }
+		H2{ Font-family: Georgia; font-size: 18px;	}
+		UL LI {display: inline-block;}
+		span, h1, h2, h3, h4 {color: #FFFF00; font-weight: bold; }
+		
+	/****http://www.bluebird-pet.com.br  ***REVISÃO = 8/06/2019 Sábado 17h59min***
+	Formato CSS: blue-bird.css - HEADER - São Paulo/22-10-2018 */
+		#boton{
+			font-style: italic;
+			font-weight: 2 1;
+			font-size: 16px;
+			color: #000;
+			box-shadow: inset 0 8px 8px #fff, 0 4px 4px #666;
+			border: 6px sold #FFFAFA;
+			box-shadow: 0 10px 40px 5px #FFFAFA;	
+			padding: 12px;
+			width: auto;	
+			background-color: #FFF68F;
+		}
+		#subtito{ 
+			color: #FFFF00; 
+			text-align: center; 
+			font-size: 22px; 
+			margin-top: -10px;
+		}
+		.back_tito{
+			background-image: url(../image/backtopo.jpeg);
+			background-position: 32% 10%;
+			height: 250px;
+			border-radius: 12px 322px 312px;			
+		}
+		.logo {font-family: jokerman; font-size: 62px; text-shadow: 10px 2px 12px #8B6914; padding-left: 25px; }
+		.tito { font-family: Lucida Calligraphy; font-size: 22px; color: #FFF68F; text-shadow: 10px 2px 12px #000; }
+		
+	/****http://www.bluebird-pet.com.br  ***REVISÃO = 8/06/2019 Sábado 17h59min***
+	Formato CSS: blue-bird.css - SECTION - São Paulo/22-10-2018 */
+		#fabricado{ 
+			margin: 12px 2px 2px 42px;
+			width: 580px; 
+			padding-right:280px; 
+			position:relative; 
+			height:470px; 
+			background: #53868B;
+			color: #fff;
+			padding-top: 22px;
+			border-radius: 122px ;
+			
+		}
+		#fabricado .ui-tabs-panel{ 
+			width:530px; 
+			height:272px; 
+			position:relative;
+			margin: 2px 2px 52px 20px;
+		}
+		#fabricado ul.ui-tabs-nav{ 
+			position:absolute; 
+			top: 60px; 
+			left:552px; 
+			list-style:none; 
+			width: 262px; 
+			text-align: center;
+			font-family: Calibri; 
+					
+		}
+		#fabricado ul.ui-tabs-nav li span{ 
+			font-size: 16px;
+			font-weight: bold;		
+			line-height:18px; 
+			color: #fff;
+			margin-top: 22px;		
+			
+		}
+		#fabricado li.ui-tabs-nav-item a{ 
+			display:block; 
+			height:60px; 
+			background: #5D478B; 
+			line-height:20px;
+			border: 1px solid #fff;
+			color:#fff;
+		}
+		#fabricado li.ui-tabs-nav-item a:hover{ 
+			background: #F4A460;
+			text-decoration: none;
+			border: 6px sold #EE7621;
+			-webkit-box-shadow: 0 0 40px 5px #FFFAFA;
+		}
+		#moldura_slider{ width: 292px; height: 252px; padding-left: 152px;}
+		#small{
+			width: 180px;
+			padding: 5px;
+			height: 70px;
+			float: left;
+			border-radius: 112px;
+		}
+		/************/
+		#fabricado .ui-tabs-panel .info{ 
+			position:absolute; 				
+		}
+		#fabricado .ui-tabs-panel .info a{ color: #FFFF00;}
+		#fabricado .ui-tabs-panel .info p{ 
+			padding: 4px;
+			padding-left: 12px; 
+			padding-right: 12px;
+			padding-top:8px;
+			border-radius: 12px;
+			font-family: Calibri;
+			font-size: 18px;
+			background-color: #666;
+			opacity: .6;		
+		}
+		#fabricado .ui-tabs-panel .info h2{ 
+			background-color:#5D478B; 
+			text-align: center; 
+			padding:4px; 
+			border-radius: 12px;
+			color: #fff;	
+			font-family: Arial;
+		}
+		
+		#fabricado .ui-tabs-hide{ 
+			display:none; 
+		}
+		#silde{
+			padding-top: 82px;
+			color: #fff;
+		} 
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

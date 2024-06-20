@@ -1,0 +1,239 @@
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<HTML xmlns="http://www.w3.org/1999/xhtml">
+		<HEAD>
+			<META CHARSET="utf-8" />
+			<META http-equiv="Content-type" content="text/html" />
+			<META NAME="keywords" CONTENT=" " />
+			<META NAME="description" CONTENT=" " />
+			<TITLE>Blue Bird Pet</TITLE>
+			<LINK REL="stylesheet" TYPE="text/css" HREF="blue-bird.css" />
+			<LINK REL="stylesheet" TYPE="text/css" HREF="divigrid.css" />
+			<LINK REL="stylesheet" TYPE="text/css" HREF="normalize.css" />
+			<LINK REL="Stylesheet" HREF="css/normalize.css" />
+			<LINK REL="Stylesheet" HREF="css/blue-bird.css" />
+			<LINK REL="Stylesheet" HREF="css/divigrid.css" />
+			
+			<script type="text/javascript" src="js/jquery.1.3.2.min.js" ></script>
+			<script type="text/javascript" src="js/jquery-ui.min.js" ></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$("#fabricado > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
+				});
+			</script>
+		</HEAD>		
+		<BODY>
+			<br><br>
+			<HEADER class="linha back_tito"> 
+				<br>
+				<div class="coluna col5">
+					<span class="logo">Blue Bird </span><br> 
+					<p id="subtito"><b> Pet Shop </b></p>
+				</div>
+				<div class="coluna col7">
+					<NAV>
+						<UL>								
+							<LI><A HREF="index-BlueBird.html"><INPUT id="boton" TYPE="button" NAME="oneButton" VALUE="Home" /></A></LI>
+							<LI><A HREF="servicos.html"><INPUT id="boton" TYPE="button" NAME="oneButton" VALUE="Serviços" /> </A></LI>
+							<LI><A HREF="notice.html"><INPUT id="boton" TYPE="button" NAME="oneButton" VALUE="News" /> </A></LI>
+							<LI><A HREF="loja-virtual.html"><INPUT id="boton" TYPE="button" NAME="oneButton" VALUE="Loja ON-Line" /> </A></LI>
+							<LI><A HREF="contact.html"><INPUT id="boton" TYPE="button" NAME="oneButton" VALUE="Contato" /> </A></LI>								
+						</UL>								
+					</NAV>
+				</div>				
+				<div>
+					<SPAN class="tito">Nós valorizamos o meio ambiente...</SPAN>
+				</div>
+			</HEADER>				
+			<SECTION>
+				<div class="linha">
+					<div id="fabricado">
+						<UL class="ui-tabs-nav">
+							<LI class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1">
+								<A HREF="#fragment-1"><IMG id="small" SRC="image/beija1.jpeg" ALT="Image1small" />
+								<SPAN><p class="tito2">GATOS </p></SPAN></A>
+							</LI><br>
+							<LI class="ui-tabs-nav-item" id="nav-fragment-2">
+								<A HREF="#fragment-2"><IMG id="small" SRC="image/araramarela.jpeg" ALT="Image2small" />
+								<SPAN><p class="tito2">CÃES </p></SPAN></A>
+							</LI><br>
+							<LI class="ui-tabs-nav-item" id="nav-fragment-3">
+								<A HREF="#fragment-3"><IMG id="small" SRC="image/voo23.jpeg" ALT="Image3small" />
+								<SPAN><p class="tito2">AVES </p></SPAN></A>
+							</LI><br>
+							<LI class="ui-tabs-nav-item" id="nav-fragment-4">
+								<A HREF="#fragment-4"><IMG id="small" SRC="image/casalpapi.jpeg" ALT="Image4small" />
+								<SPAN><p class="tito2">AQUARIUM </p></p></SPAN></A>
+							</LI>											
+						</UL>	
+						
+						<!-- PRIMEIRO GRID DO SLIDE -->
+						<div id="fragment-1" class="ui-tabs-panel" STYLE="">
+							<IMG id="moldura_slider" SRC="image/beija1.jpeg" ALT="beija1" />
+								<div class="info" >
+									<H2><A HREF="notice.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</A></H2>
+									<P>Praesent non nulla diam, a rutrum nisl. Quisque vehicula, lorem in ultrices porta, turpis diam ornare justo, in porttitor magna sem non eros...<A HREF="notice.html" >Leia mais &raquo</A></P>
+								</div>
+						</div>
+						<!-- SEGUNDO GRID DO SLIDE -->
+						<div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" STYLE="">
+							<IMG id="moldura_slider" SRC="image/araramarela.jpeg" ALT="Image 2" />
+								<div class="info" >
+									<H2><A HREF="#" >Vestibulum ante ipsum primis in faucibus orci luctus et</A></H2>
+									<P>Vestibulum leo quam, accumsan nec porttitor a, euismod ac tortor. Sed ipsum lorem, sagittis non egestas id, suscipit...<A HREF="notice.html" >Leia mais &raquo</A></P>
+								</div>
+						</div>
+						<!-- TERCEIRO GRID DO SLIDE -->
+						<div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" STYLE="">
+							<IMG id="moldura_slider" SRC="image/voo23.jpeg" ALT="Image 3" />
+								<div class="info" >
+									<H2><A HREF="#" >Nullam commodo, lorem id varius hendrerit</A></H2>
+									<P>Nulla arcu turpis, ultricies a tempor at, vehicula consequat mi. Vivamus venenatis dui eget lacus adipiscing ornare. Praesent ultrices molestie nulla at semper. Morbi turpis lacus...
+									<A HREF="notice.html" >Leia mais &raquo</A></P>
+								</div>
+						</div>
+						<!-- QUARTO GRID DO SLIDE -->
+						<div id="fragment-4" class="ui-tabs-panel ui-tabs-hide" STYLE="">
+							<IMG id="moldura_slider" SRC="image/casalpapi.jpeg" ALT="Image 4" />
+								<div class="info" >
+									<H2><A HREF="#" >Etiam congue, leo sit amet iaculis interdum</A></H2>
+									<P>Quisque sed orci ut lacus viverra interdum ornare sed est. Donec porta, erat eu pretium luctus, leo augue sodales...
+									<A HREF="notice.html" > Leia mais &raquo</A></P>
+								</div>
+						</div>								
+					</div>					
+				</div>
+			</SECTION>		
+					<div class="linha">
+					</div>
+
+					<div class="linha">
+						<ARTICLE>
+							<div class="coluna col4 colm">
+								<div>						
+									<H3>Matérias<SPAN>& Artigos</SPAN></H2>
+									
+										<div class="news_box">
+											<IMG id="small2" SRC="image/passaros.jpeg" ALT="Image 04" />
+												<H6><A id="box"HREF="artigoMateria.html">Espécies brasileiras de pássaros silvestres</A></H6>				
+										</div>																		
+										<div class="news_box">
+											<IMG id="small2" SRC="image/fonte-pass2.jpeg" ALT="Image 05" />
+												<H6><A id="box"HREF="lojavirtual.html">Conheça nosso modelos de fontes para jardim</A></H6>
+										</div>															
+										<div class="news_box">
+											<IMG id="small2" SRC="image/food-pass2.jpg" ALT="Image 07" />
+												<H6><A id="box"HREF="lojavirtual.html">Visite nossa loja de rações especializadas</A></H6>
+										</div>									
+									<div class="btn_more"><A HREF="artigoMateria.html">Leia mais...&raquo</A></div>	
+								</div>
+							</div>
+							
+							<div class="coluna col4 colm">
+								<H3>Nosso<SPAN>Serviço</SPAN></H2>
+									<div class="col4-b">
+										<IMG id="servico" WIDTH="240" HEIGHT="110" ALIGN="CENTER" SRC="image/medico.jpg" ALT="Image01" />
+									</div>
+									<div class="col4-b">
+										<P><EM>Morbi sed nulla ac est cursus suscipit eu ac lectus. Curabitur  ullamcorper nibh nisi, sed eleifend dolor. Validate <A HREF="#" REL=" "><STRONG>XHTML</STRONG></A> &amp; <A HREF="#" REL="nofollow"><STRONG>CSS</strong></a>.</em></p>									
+											<UL class="tmo_list">
+												<LI>Duis bibendum diam et eros</LI>
+												<LI>Etiam accumsan ante ac augue</LI>
+												<LI>Nullam faucibus tortor in sem</LI>
+												<LI>Phasellus cursus congue arcu</LI>                        
+											</UL>
+									</div>
+									
+								<div class="btn_more"><a href="servicos.html">Leia mais...&raquo</a></div>
+							</div>
+						
+							<div class="coluna col4 colm">
+								<H3>Sobre<SPAN>Nosso Objetivo</SPAN></H3>
+									<div><IMG id="servico"WIDTH="240" HEIGHT="110" SRC="image/images.jpg" ALT="Image 02" /></div>
+									<P><EM>Etiam ut urna ante, ut pulvinar ante. Vivamus a metus quam. Aenean non eros nunc. </EM></P>
+									<P>Sailing is Free CSS Template provided by <STRONG>templatemo</STRONG> website. Feel free to download and use this template for your websites. Credits go to <A REL="nofollow" HREF="http://www.photovaco.com" TARGET="_blank">Free Photos</A> for photos and <A REL="nofollow" HREF="http://www.brusheezy.com/brush/1400-24-Clouds" TARGET="_blank">Marcia Santos</A> for a Photoshop Brush. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac elit est, eget hendrerit erat.</P>
+										<div class="btn_more"><A HREF="about.html">Leia mais... &raquo</a></div>
+							</div>					
+						</ARTICLE>
+					</div>					
+				</div>
+			</div>		
+			<div class="linha">
+			</div>
+		
+			<div class="linha">
+				<FOOTER>				
+					<div class="coluna col3">
+						<div class="colm1">
+							<H5>Siga-nos...</H5>
+								<P>Curabitur enim tellus, iaculis at imperdiet eget, pretium sit amet purus. Nullam eleifend ultricies consequat.</P>							
+									<UL id="social_box">
+										<LI><A HREF="#"><img SRC="image/facebook.png" 	ALT="Facebook"  /></A></LI>
+										<LI><A HREF="#"><img SRC="image/twitter.png" 	ALT="Twitter"   /></A></LI>
+										<LI><A HREF="#"><img SRC="image/linkedin.png" 	ALT="linkedin"  /></A></LI>
+										<LI><A HREF="#"><img SRC="image/technorati.png"ALT="Technorati"/></A></LI>
+										<LI><A HREF="#"><img SRC="image/myspace.png" 	ALT="Myspace"   /></A></LI>                
+									</UL>						
+						</div>					
+					</div>
+					
+					<div class="coluna col3">
+						<div class="colm1">
+							<H5>Our Pages</H5>
+								<UL id="tmo">
+									<LI><A HREF="index.html">Home</A></LI>
+									<LI><A HREF="services.html">Services</A></LI>
+									<LI><A HREF="news.html">News</A></LI>
+									<LI><A HREF="about.html">About us</A></LI>
+									<LI><A HREF="contact.html">Contact</A></LI>
+								</UL>  					 
+						</div>					
+					</div>
+					
+					<div class="coluna col3">
+						<div class="colm1">
+							<H5>Partners</H5>
+								<UL id="tmo">
+									<LI><A href="#">Website Templates</A></LI>
+									<LI><A href="#">Image Gallery</A></LI>
+									<LI><A href="#">Premiun Themes</A></LI>
+									<LI><A href="#">Learn HTML CSS</A></LI>
+									<LI><A href="#">Stock Photos</A></LI>
+								</UL>	 
+						</div>
+					</div>
+						
+					<div class="coluna col3">
+						<div class="col_last">
+							<H5>Links</H5>
+								<UL id="tmo">
+									<LI><A HREF="#">Aenean rhoncus leo ut eros</A></LI>
+									<LI><A HREF="#">Consectetur adipiscing elit</A></LI>
+									<LI><A HREF="#">Lorem ipsum dolor sit amet</A></LI>
+									<LI><A HREF="#">Pellentesque vel est ut magna</A></LI>
+									<LI><A HREF="#">Sed fringilla sollicitudin nisi</A></LI>
+								</UL>    		 
+						</div>
+					</div>
+									
+					<div class="linha cop">
+						Copyright © 2015 - T-Mahall - TI Soluções Complexas LTDA.
+					</div>
+				</FOOTER>
+			
+		</BODY>
+	</HTML>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
