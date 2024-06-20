@@ -1,0 +1,118 @@
+
+		/****http://www.ilumina-it.com.br  ***REVISÃO = 17/05/2019 sexta-feira 23h19min***
+	Formato CSS: estilo_ilumina - BODY - São Paulo/22-10-2018 */
+		BODY{ background-color: RGB(17,17,17); color: #fff;}
+		ul,li{ display: inline;}
+		h1,h2,h3,h4,h5 { color: #CDBE70;}
+		a {text-decoration: none;}
+		.loja {background-color: #fff; }
+/**************************************************************************************************************************************		
+		/****http://www.ilumina-it.com.br
+	Formato CSS: estilo_ilumina - HEADER - São Paulo/22-10-2018 */
+		#botao {
+			font-weight: bold;
+			font-family: Californian FB  ;
+			padding: 22px 12px 22px 12px;
+			box-shadow: 2px 2px 22px #fff, 1px 4px 124px #CDBE70;
+			color: #1C1C1C;
+			background-color: #BDB76B;
+			border-radius: 12px;
+		}
+		#botao:hover{ background-color: #1C1C1C; color: #fff;}
+		#social {
+			width: 42px; 
+			height: 38px; 
+			border-radius: 62px;
+			border: solid 2px #CDBE70;
+			box-shadow: 2px 2px 22px #fff, 1px 4px 124px #CDBE70;
+		}
+		#social:hover{ 
+			box-shadow: 2px 2px 22px #fff, 1px 4px 124px #CDBE70;
+			border: solid 2px #fff;
+		}
+/**************************************************************************************************************************************		
+		/****http://www.ilumina-it.com.br
+	Formato CSS: estilo_ilumina - SECTION - São Paulo/22-10-2018 */
+		#article_img{
+			width: 184px;
+			height: 180px;
+			border: solid 12px #CDBE70;
+			float: right;
+			box-shadow: 2px 12px 22px #CDBE70, 2px 24px 124px #CDBE70;	
+		}	
+		#contact{
+			font-size: 18px;
+			color:#000;
+			width: 545px;
+		}
+		#pag_img{  padding-left: 300px; border-radius: 22px;}
+		#text_box {
+			width: 545px;
+			height: 222px;
+			font-size: 18px;
+			color: #000;			
+		}
+		#vitral{
+			font-family: Kunstler Script  ;
+			font-weight: bold;
+			font-size: 100px;
+			color: #EEDD82;			
+		}
+		
+		.article_title{
+			width: 482px;
+			height: 200px;
+			border: 2px #1C1C1C;
+			background-image: url(../Objetos/teste2.jpg);
+			box-shadow: 2px 2px 22px #CDBE70, 2px 4px 124px #CDBE70;
+		}
+		.article_title p:hover{ 
+			text-shadow: 2px 12px 212px #FFF;
+			color: #fff;
+		}
+		.novo{ margin-left: 142px;}
+		.frame_novo{
+			width: 222px;
+			height: 224px;
+			border: 2px solid #fff;
+			background-image: url(../Objetos/teste1.jpg);
+			margin-right: 42px;
+	
+		}
+		.text_menu{ 
+			font-family: Californian FB  ;
+			font-style: italic;
+			font-size: 52px;
+			color: #EEDD82;
+		}
+		.text_menu:hover{ 
+			color: #fff;
+		}
+		.title_hover{
+			font-family: Lucida Handwriting ;
+			font-size: 22px;
+			color: #fff;
+		}
+		.anuncio{ 			
+			height: 180px;
+			background-color: #000; 	
+			box-shadow: 2px 12px 22px #CDBE70, 2px 24px 124px #CDBE70;			
+		}
+		
+		
+		
+/**************************************************************************************************************************************		
+		/****http://www.ilumina-it.com.br
+	Formato CSS: estilo_ilumina - FOOTER - São Paulo/22-10-2018 */
+		
+		.temp_foot{
+			color: #CDBE70;
+			background-color: #000;
+			box-shadow: 2px 12px 22px #CDBE70, 2px 24px 124px #CDBE70;		
+		}
+		.temp_foot p{ text-align: center;}
+		.title_foot{		
+			font-family: Curlz MT;
+			
+			
+		}
