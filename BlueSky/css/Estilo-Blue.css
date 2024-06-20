@@ -48,6 +48,9 @@
 			font-family: Bodoni MT Poster Compressed ;
 			letter-spacing: 8px;
 		}
+		.topo-pagina { margin-left: 20%;}
+		.topo-pagina ul li{ display: inline-block; }
+		.topo-pagina h1{ text-align: center; margin: 20%;}
 				
 	/****http://www.science-bluesky.com ***REVISÃO = 07/06/2019 sexta-feira 23h16min***
 	Formato CSS: Estilo_Blue.css - SECTION - São Paulo/22-10-2018 */
