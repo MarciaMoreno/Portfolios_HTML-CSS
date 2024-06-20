@@ -1,0 +1,293 @@
+/****http://www.jw-construtores.com.br
+Formato CSS: estilo_jack - BODY - São Paulo/14-10-2018 */
+	A{ text-decoration: none;}
+	A:link{ color: #483D8B;}
+	A:visited{ color: #483D8B;}
+	UL LI{ list-style: none; text-decoration: none;}	
+	BODY{ background-color: #838B83; color:#fff;}
+	h1,h2,h3,h4,h5{ color: #FFFF00; font-family: Calibri; }
+	
+
+/****http://www.jw-construtores.com.br
+Formato CSS: estilo_jack - HEADER - São Paulo/14-10-2018 */
+	
+	#botao{
+		margin-top: -2px;
+		padding: 28px 42px 8px 42px; 
+		color: #607B8B;
+		background-color: #fff;
+		font-size: 18px;
+		box-shadow: 2px 4px 112px #FFFACD;
+	}
+	#botao:hover{
+		background-color: #F4A460;
+		color: #fff;
+		box-shadow: 2px 4px 12px #FFFACD;
+		}
+	#social{
+		width: 42px;
+		height: 42px;
+		margin: 6px;
+		border-radius: 12px;
+		border: 2px solid #fff;
+		box-shadow: 2px 4px 12px #FFFACD,2px 18px 52px #FFFACD;
+		float: left;
+	}
+	#social:hover{
+		border: 2px solid #fff;
+		box-shadow: 12px 24px 42px #fff, 22px 38px 52px #FFFACD;
+	}
+	#logo_name{
+		width: 920px; 
+		margin: 40px 0px 15px 0px;
+		
+	}
+	.grid{ background-color: #2F4F4F;}
+	.jack1{ border: double 12px; #fff;}
+	.menu{ 
+		box-shadow: 12px 24px 42px #FFFACD, 22px 38px 152px #FFFACD; 
+		padding-left: 32px;
+		top: 0px;
+	}
+	.menu ul li { display: inline; }
+	.nave_social{ margin-top: -32px; }
+
+/****http://www.jw-construtores.com.br
+Formato CSS: estilo_jack - SECTION - São Paulo/14-10-2018 */
+	#artigo_small{
+		width: 225px;
+		height: 225px;
+		border-radius: 12px;
+		border: 12px solid #F4A460;
+	}
+	#artigo_small:hover{ border: 12px solid #fff; }
+	#cartao{ margin-left: 142px;}
+	#contact{
+		margin-left: 2px;
+		margin-top: 4px;
+		padding: 6px;
+		clear: both;
+		font-size: 20px;
+		width:425px;
+		border-radius: 12px;
+		box-shadow: 2px 14px 32px #FFFACD, 2px 4px 12px #FFFACD;
+		color:#666;
+	}
+	#fone{
+		width: 770px;
+		margin-left: 90px;	
+	} 
+	#fone:hover{  	box-shadow: 2px 4px 12px #FFFACD, 2px 4px 12px #FFFACD;}
+	#frame{
+		width: 362px;
+		height: 322px;
+		border-radius: 12px;
+		float: right;
+	}
+	#manager{
+		width: 225px;
+		height: 400px;
+		float: right;
+		border: 12px solid #F4A460;
+		border-radius: 24px;
+		box-shadow: 12px 24px 42px #FFFACD, 22px 38px 152px #FFFACD; 
+		margin: 2px 2px 112px 2px;
+	}
+	#notice_img{
+		width: 282px;
+		height: 225px;
+		border-radius: 12px;
+	}
+	#text_box{
+		width: 440px;	
+		height: 250px;
+		border-radius: 12px;
+		margin-top: 4px;
+		box-shadow: 2px 14px 32px #FFFACD, 2px 4px 12px #FFFACD;
+		color: #666;
+	}	
+	
+	.box{
+		width: 248px;
+		height: 95px;
+		margin-top: -52px;
+		border-radius: 12px;
+		background-color: #F5FFFA;	
+		font-size: 16px;
+	}
+	.box h6{ 
+		padding: 22px 2px 2px 2px;
+		text-align: center;
+		font-size: 16px;		
+	}
+	.compra p { text-align: center; }
+	a.raquo{  
+		font-style: italic;
+		color: #FFFACD;
+	}
+	a.raquo:hover{  box-shadow: 2px 4px 12px #FFFACD, 2px 4px 12px #FFFACD;}
+	.text2{ background-color: #2F4F4F; }
+	.title{ margin-left: 32px; font-style: italic;}
+	.title_artigo_small{ font-size: 22px; 	}
+	
+	
+	/****http://www.jw-construtores.com.br
+	Formato CSS: estilo_jack - FOOTER - São Paulo/14-10-2018 */
+	
+	FOOTER .temp_foot{
+		text-align: center;
+		background-color: #2F4F4F;
+	}
+	.temp_foot A { color: #fff;}
+	.temp_foot A:hover{  box-shadow: 2px 4px 12px #FFFACD, 2px 4px 12px #FFFACD;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

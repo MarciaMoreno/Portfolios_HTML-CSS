@@ -1,0 +1,93 @@
+﻿	/****http://www.jw-construtores.com.br
+	Formato CSS: estilo_jack - BUNNER FLIPADO - São Paulo/14-10-2018 */
+	
+	#fabricado{ 
+		margin: 72px 2px 2px 42px;
+		width: 580px; 
+		padding-right:280px; 
+		position:relative; 
+		height:370px; 
+		background: #2F4F4F;
+		color: #607B8B;
+		padding-top: 22px;
+		
+	}
+	#fabricado .ui-tabs-panel{ 
+		width:530px; 
+		height:272px; 
+		background: #838B83; 
+		position:relative;
+		margin: 2px 2px 52px 20px;
+	}
+	#fabricado ul.ui-tabs-nav{ 
+		position:absolute; 
+		top: 60px; 
+		left:552px; 
+		list-style:none; 
+		width: 262px; 
+		text-align: center;
+		font-family: Calibri; 
+		box-shadow: 2px 4px 42px #FFFACD, 12px 28px 152px #FFFACD; 
+		
+	}
+	#fabricado ul.ui-tabs-nav li span{ 
+		font-size: 16px;
+		font-weight: bold;		
+		line-height:18px; 
+		color: #fff;
+		margin-top: 22px;		
+	}
+	#fabricado li.ui-tabs-nav-item a{ 
+		display:block; 
+		height:60px; 
+		background: #838B83; 
+		line-height:20px;
+		border: 1px solid #fff;
+		color:#fff;
+	}
+	#fabricado li.ui-tabs-nav-item a:hover{ 
+		background: #F4A460;
+		text-decoration: none;
+		border: 6px sold #EE7621;
+		-webkit-box-shadow: 0 0 40px 5px #FFFAFA;
+	}
+	#moldura_slider{ width: 292px; height: 252px; padding-left: 152px;}
+	#small{
+		width: 98px;
+		padding: 5px;
+		height: 50px;
+		float: left;
+	}
+	/*Slider Maior*/
+
+	#fabricado .ui-tabs-panel .info{ 
+		position:absolute; 
+		top: 162px;				
+	}
+	#fabricado .ui-tabs-panel .info a{ color: #FFFF00;}
+	#fabricado .ui-tabs-panel .info p{ 
+		padding: 4px;
+		padding-left: 12px; 
+		padding-right: 12px;
+		padding-top:8px;
+		border-radius: 12px;
+		font-family: Calibri;
+		font-size: 18px;
+		background-color: #666;
+		opacity: .6;		
+	}
+	#fabricado .ui-tabs-panel .info h2{ 
+		background-color:#fff; 
+		text-align: center; 
+		padding:4px; 
+		border-radius: 12px;
+		color: #607B8B;		
+	}
+	
+	#fabricado .ui-tabs-hide{ 
+		display:none; 
+	}
+	#silde{
+		padding-top: 82px;
+		color: #fff;
+	} 

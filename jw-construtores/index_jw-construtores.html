@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<HTML lang="pt-br">
+	<HEAD>
+		<!----//Links meta-name/CONTEUDO//----->
+		<META CHARSET="utf-8" />
+		<META http-equiv="Content-type" content="text/html" />		
+		<META NAME="keywords" content=" " />
+		<META NAME="description" content=" " />
+		<META NAME="viewport" content="width=device-width, initial-scale=1.0" />
+		<TITLE>J&W Construtores</TITLE>
+		<!----//Links RELACIONAIS//----->
+		<LINK REL="stylesheet" TYPE="text/css" HREF="css/divgrid.css" />
+		<LINK REL="stylesheet" TYPE="text/css" HREF="css/estilo_jack.css" />
+		<LINK REL="stylesheet" TYPE="text/css" HREF="css/normalize.css" />
+		<LINK REL="stylesheet" TYPE="text/css" HREF="css/content_slider_style.css" />	
+		<LINK REL="Stylesheet" HREF="normalize.css" />
+		<LINK REL="Stylesheet" HREF="content_slider_style.css" />
+		<LINK REL="Stylesheet" HREF="estilo_jack.css" />
+		<LINK REL="Stylesheet" HREF="divgrid.css" />
+		<!----//JavaScript//----->
+		<script type="text/javascript" src="js/jquery.1.3.2.min.js" ></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js" ></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#fabricado > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 6000, true);
+			});
+		</script>
+	</HEAD>
+	<BODY>		
+		<HEADER>
+			<div class="grid">
+				<div class="linha">
+					<div class="coluna col8">
+						<img id="logo_name" SRC="Logotipo/logo_name.png" ALT="Welcome to our home" />
+					</div>
+					<div class="coluna col4 nave_social">
+						<UL>
+							<LI><A HREF="#"><IMG id="social" SRC="Objetos/twitter.png" ALT="Facebook" /></A><LI>
+							<LI><A HREF="#"><IMG id="social" SRC="Objetos/instangram.jpg" ALT="Skype" /></A></LI>
+							<LI><A HREF="#"><IMG id="social" SRC="Objetos/whatsup.jpg" ALT="Whats up" /></A></LI>
+						</UL>
+					</div>
+				</div>
+			</div>
+			<hr class="jack1">
+			<div class="linha col12 menu">
+				<UL>
+					<LI><A HREF="index_jw-construtores.html"><INPUT id="botao" TYPE="button" NAME="oneButton" VALUE="Home" /></A></LI>								
+					<LI><A HREF="jw_servicos.html"><INPUT id="botao" TYPE="button" NAME="oneButton" VALUE="Serviços" /></A></LI>							
+					<LI><A HREF="jw_artigos.html"><INPUT id="botao" TYPE="button" NAME="oneButton" VALUE="Multimidia" /></A></LI>							
+					<LI><A HREF="jw_contatos.html"><INPUT id="botao" TYPE="button" NAME="oneButton" VALUE="Contatos" /></A></LI>							
+					<LI><A HREF="jw_quemsomos.html"><INPUT id="botao" TYPE="button" NAME="oneButton" VALUE="Quem Somos" /></A></LI>						
+				</UL>		
+			</div>			
+		</HEADER>			
+		<SECTION>			
+			<div class="linha">
+				<div id="fabricado">'		
+					<UL class="ui-tabs-nav">
+						<LI class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1">
+							<A HREF="#fragment-1"><IMG id="small" SRC="Imagens/box1.jpg" ALT="Image1small" />
+							<SPAN> Reformas em geral</SPAN></A>
+						</LI>
+						<LI class="ui-tabs-nav-item" id="nav-fragment-2">
+							<A HREF="#fragment-2"><IMG id="small" SRC="Imagens/box2.jpg" ALT="Image2small" />
+							<SPAN> Texturas e Revestimentos</SPAN></A>
+						</LI>
+						<LI class="ui-tabs-nav-item" id="nav-fragment-3">
+							<A HREF="#fragment-3"><IMG id="small" SRC="Imagens/box3.jpg" ALT="Image3small" />
+							<SPAN> Hidráulica e Aplicações de projetos</SPAN></A>
+						</LI>
+						<LI class="ui-tabs-nav-item" id="nav-fragment-4">
+							<A HREF="#fragment-4"><IMG id="small" SRC="Imagens/box4.jpg" ALT="Image4small" />
+							<SPAN> Alvenaria e Acabamento /Drywall</SPAN></A>
+						</LI>											
+					</UL>	
+					
+					<!-- PRIMEIRO GRID DO SLIDE -->
+					<div id="fragment-1" class="ui-tabs-panel" STYLE="">
+						<IMG id="moldura_slider" SRC="Imagens/box1.jpg" ALT="beija1" />
+							<div class="info" >
+								<H2>Reformas em geral</H2>
+								<P><A HREF="jw_servicos.html"id="silde" HREF="servicos_jw.html">
+								Clique e conheça as principais modalidades. Há cobertura para pinturas, deslocamentos de paredes, 
+								sobreposicção de pisos e revestimentos. Nosso orçamento é totalmente sem custo. 
+								</A></P>
+							</div>
+					</div>
+					<!-- SEGUNDO GRID DO SLIDE -->
+					<div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" STYLE="">
+						<IMG id="moldura_slider" SRC="Imagens/box2.jpg" ALT="Image 2" />
+							<div class="info" >
+								<H2>Texturas e Revestimentos</H2>
+								<P><A HREF="jw_servicos.html" id="silde" HREF="servicos_jw.html">
+								Texturas e revestimos de diversas opções e de acordo com o gosto de cada cliente. E principalmente
+								nossos projetos dá suporte para tratamento de áreas com umidade ou infiltração. Cada caso é analisado e o tipo de serviço vai depender
+								da origem do seu problema. 
+								</A></P>
+							</div>
+					</div>
+					<!-- TERCEIRO GRID DO SLIDE -->
+					<div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" STYLE="">
+						<IMG id="moldura_slider" SRC="Imagens/box3.jpg" ALT="Image 3" />
+							<div class="info" >
+								<H2>Hidráulica e Aplicações de projetos</H2>
+								<P><A HREF="jw_servicos.html" id="silde" HREF="servicos_jw.html">
+								Verão chegando é uma área que demanda bastante profissionais. Orientamos projetos do zero, e realizamos reparos e 
+								alterações dentro do possivel. Aproveite nosso orçamento grátis e agende uma visita.
+								</A></P>
+							</div>
+					</div>
+					<!-- QUARTO GRID DO SLIDE -->
+					<div id="fragment-4" class="ui-tabs-panel ui-tabs-hide" STYLE="">
+						<IMG id="moldura_slider" SRC="Imagens/box4.jpg" ALT="Image 4" />
+							<div class="info" >
+								<H2>Alvenaria e Acabamento /Drywall</H2>
+								<P><A HREF="jw_servicos.html" id="silde" HREF="servicos_jw.html">
+								Estamos falando de projetos de edificações, ou estruturação do imovel, que vai além de uma simples reforma. 
+								Nele idealizamos a parte hidráulica da casa e exterior, calhas, telhados, forros, instalação eletrica, entre outros.	
+								</A></P>
+							</div>
+					</div>								
+				</div>					
+			</div>
+		</SECTION>
+		
+		<SECTION>
+			<div class="linha">
+				<div class="coluna col12">
+					<article>
+						<p class="title1">Seja Bem Vindo... </p>
+						<h1>J&W Construtores</h1> <p class="text">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nossa parceria cresce a cada dia, graças à colaboração de profissionais da area de 
+						contrução e design dedicados à performance de qualidade e requinte na execução dos trabalhos. Se não encontrar 
+						o que precisa em nossa lista de serviços, entre em contato conosco. Será um prazer conhece-lo e entender 
+						o que de melhor podemos fazer para ajudá-lo.</p>						
+					</article>
+				</div>
+				<br>			
+				<div class="coluna col4 box_slim">
+					<article>
+						<h2>Na hora de reformar</h2> <p class="text">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+						A reforma é o sonho de consumo de muita gente, mas não é nada legal vivenciar uma. Então, ficam algumas 
+						dicas para tornar este momento o mais agradável possível. O ideal é que o imóvel seja desocupado por inteiro 
+						incluindo <A class="raquo" HREF="jw_artigos.html"> &nbsp Continue lendo &raquo &raquo </A> </p>
+						<A class="raquo" HREF="jw_artigos.html">	
+							<IMG id="notice_img" SRC="Imagens/Constru_note.jpg" alt="Dica da hora.com" /></A>
+					</article>
+				</div>
+				<div class="coluna col4 box_slim">
+					<article>
+						<h2>Piso também é tendência</h2> <p class="text">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+						É isso mesmo, pisos também entram e saem de moda. Consideramos essas tendências, mas sempre embasado na preferência do cliente. 
+						Existem aqueles que gostam do brilho e transparência do porcelanato, sem se importar com 
+						<A class="raquo" HREF="jw_artigos.html"> &nbsp Continue lendo &raquo &raquo </A> </p>
+						<A class="raquo" HREF="jw_artigos.html">	
+						<IMG id="notice_img" SRC="Imagens/piso_vinilico.jpg" alt="Dica da hora.com" /></A>
+					</article>
+				</div>
+				<div class="coluna col4 box_slim">
+					<article>
+						<h2>Durabilidade ou custo?</h2> <p class="text">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+						Tá aí uma pergunta simples, mas com uma resposta bem difícil. E da nossa parte só cabe uma dica, pois cada cliente possui uma
+						peculiaridade, gosto, orçamento e necessidades bem distintas. Tente considerar o tempo e tudo o que 
+						<A class="raquo" HREF="jw_artigos.html"> &nbsp Continue lendo &raquo &raquo </A> </p>
+						<A class="raquo" HREF="jw_artigos.html">	
+							<IMG id="notice_img" SRC="Imagens/question_note.jpg" alt="Dica da hora.com" /> </A>
+					</article>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="linha">
+				<SPAN class="title_artigo_small"><H3>Iluminação de Ambientes</H3></SPAN>
+			</div>
+			<div class="grid">
+				<div class="linha">
+					<div class="coluna col4">
+						<A HREF="jw_servicos.html">
+						<IMG id="artigo_small" SRC="Imagens/ilumina1.jpg" ALT="Projeto de iluminação" /></A>
+						<div class="box">	
+							<H6><A HREF="jw_servicos.html">Lustres Pendentes - Diversos modelos.</A></H6>	
+						</div>
+					</div>
+					<div class="coluna col4">
+						<A HREF="jw_servicos.html">
+						<IMG id="artigo_small" SRC="Imagens/ilumina2.jpg" ALT="Projeto de iluminação" /></A>
+						<div class="box">
+							<H6><A HREF="jw_servicos.html">Luminárias para Drywall, requinte e elegância.</A></H6>
+						</div>
+					</div>
+					<div class="coluna col4">
+						<A HREF="jw_servicos.html">
+						<IMG id="artigo_small" SRC="Imagens/ilumina3.jpg" ALT="Projeto de iluminação" /></A>
+						<div class="box">
+							<H6><A HREF="jw_servicos.html">Luminárias para muros e jardins, ou áreas externas.</A></H6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="linha">
+				<SPAN class="title_artigo_small"><H3>Hidráulica para fontes e jardins</H3></SPAN>
+			</div>
+			<div class="grid">
+				<div class="linha">
+					<div class="coluna col4">
+						<A HREF="jw_servicos.html">
+						<IMG id="artigo_small" SRC="Imagens/fonte1.jpg" ALT="Projeto de iluminação" /></A>
+						<div class="box">	
+							<H6><A HREF="jw_servicos.html">Sistema de canos para fontes de jardim.</A></H6>	
+						</div>
+					</div>
+					<div class="coluna col4">
+						<A HREF="jw_servicos.html">
+						<IMG id="artigo_small" SRC="Imagens/fonte2.jpg" ALT="Projeto de iluminação" /></A>
+						<div class="box">
+							<H6><A HREF="jw_servicos.html">Hidráulica para irrigação de plantas e outros.</A></H6>
+						</div>
+					</div>
+					<div class="coluna col4">
+						<A HREF="jw_servicos.html">
+						<IMG id="artigo_small" SRC="Imagens/fonte3.jpg" ALT="Projeto de iluminação" /></A>
+						<div class="box">
+							<H6><A HREF="jw_servicos.html">Sistemas tubular para instalação de piscinas</A></H6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="linha grid">
+				<A HREF="jw_contatos.html">				
+					<IMG id="fone"HREF="jw_contatos.html" SRC="Logotipo/img_contato.png" ALT="Dá uma ligada, orçamento grátis" />
+				</A>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="linha compra">
+				<p>Para sua segurança trabalhamos somente com os tipos de cartões, 
+				<br>na função débito e crédito</p>
+				<IMG id="cartao" SRC="Objetos/cartoes.png" ALT="Trabalhamos com todos os cartões" />
+			</div>			
+		</SECTION>
+		<br>		
+		<br>
+		<FOOTER>
+			<div class="linha temp_foot">
+				<p><A HREF="jw_quemsomos.html">Copyright © 2018/2019 - J&W Construtores - SP - Brasil</A></p>
+			</div>
+		</FOOTER>
+		<br>
+		<br>
+		<br>
+		<br>
+	</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
