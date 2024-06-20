@@ -1,0 +1,250 @@
+/****http://www.jw-construtores.com.br
+Formato CSS: estilo_ammi - BODY - São Paulo/15/02/2019 */
+	A{ text-decoration: none;}
+	A:link{ color: #FFD700;}
+	A:visited{ color: #FFD700;}
+	UL LI{ list-style: none; text-decoration: none; }	
+	BODY{ background-color: RGB(29,19,9); color:#fff;}
+	h1{ color: #fff; font-family: Papyrus; font-size: 28px; }
+	
+/****http://www.jw-construtores.com.br
+Formato CSS: estilo_ammi - HEADER - São Paulo/15/02/2019 */
+	
+	#botao{
+		border: 8px solid #FFFAFA;
+		-webkit-box-shadow: 0 0 40px 5px #F0FFFF;
+		box-shadow: 0 0 40px 5px #F0FFFF;	
+		padding: 4px 2px;
+		font-family: Georgia;
+		font-size: 16px;
+		border-radius: 16px;
+		margin-left: 12px;
+		color: RGB(29,19,9) ;
+	}	
+	#botao:hover{ box-shadow: 0 0 40px 5px rgb(255,144,4);	}
+	#social{ width: 32px; height: 32px; padding: 2px; }
+	#social:hover{ box-shadow: 0 0 40px 5px #fff;	}
+	#tito2 {width: 950px; }
+	.menu UL LI	{  display: inline-block; 	}
+	.rede UL LI{ display: inline-block;  }
+	
+/****http://www.jw-construtores.com.br
+Formato CSS: estilo_ammi - SECTION - São Paulo/15/02/2019 */
+	
+	#boton_play{ 
+		width: 32px; 
+		height: 32px; 
+		margin-left: 102px; 
+		border-radius: 42px;	
+		box-shadow: 0 0 40px 5px #fff;
+	}
+	#contact{ width: 422px; color: RGB(29,19,9); }
+	#foto{ width: 260px; height: 292px; margin-left: 152px; border-radius: 42px;}
+	#letra{
+		opacity: .6; 	
+		background-color: RGB(29,19,9); 
+		position: realtive;
+		color:  #FFFF00;
+		margin-left: 102px;
+	}
+	#letra_colunada{
+		opacity: .6; 	
+		background-color: RGB(29,19,9); 
+		position: realtive;
+		color:  #FFFF00;
+		margin-left: 42px;
+	}
+	#prox_letra{
+		opacity: .6; 	
+		background-color: RGB(29,19,9); 
+		position: realtive;
+		color:  #fff;
+		font-size:16px;
+	}
+	#prox_letra:hover{ color: #FFFF00; text-decoration: underline;}
+	#logo{ width: 920px; float: center;}
+	#nome_song{ 
+		margin-top: -32px;
+		margin-left: -310px; 
+		font-family: Freestyle Script;
+		font-size: 42px;
+		color: #fff;		
+	}
+	#nome_song:hover{ text-decoration: underline; color: #fff;	} 		
+	#text_box { width: 422px; height: 222px; color: RGB(29,19,9);  }
+	#tito{ font-family: Papyrus; font-size: 32px;	}
+	#tocador{ margin-left: 322px;	}
+	H2 #nome_song {opacity: .6; background-color: RGB(29,19,9);	}
+	.agenda{
+		opacity: .6; 
+		background-color: RGB(29,19,9); 
+		padding: 32px;	
+		border-radius: 42px;
+		}
+	.mural_cd{
+		box-shadow: 12px 10px 54px 22px rgb(255,144,4);	
+		background-image: url(../Imagens/mural_cd.png);
+		background-repeat: no-repeat;
+	}
+	.song{ margin: -20px; margin-top:-42px;}
+	
+/****http://www.jw-construtores.com.br
+Formato CSS: estilo_ammi - FOOTER - São Paulo/15/02/2019 */
+	
+	FOOTER .temp_foot{
+		text-align: center;
+		background-color: RGB(29,19,9) ;
+		box-shadow: 12px 0px 54px rgb(255,144,4);	
+	}
+	.temp_foot A { color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
