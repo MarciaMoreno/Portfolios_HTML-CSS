@@ -16,8 +16,8 @@ Atualizado: MarciaMoreno - Nazaré do Piauí/PI - 21/05/2024 - BRASIL
 		display: flex; 
 		min-width: 10%; 
 		margin: 0 auto;
-		padding: 10px;
-		margin-left: 15%;
+		overflow: auto;
+		float: center;		
 	}
 	.flex > div{ flex: 1 1 450px;}	
 	.linha > div{ flex: 1 1 450px;}	

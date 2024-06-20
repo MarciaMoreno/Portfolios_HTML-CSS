@@ -11,16 +11,17 @@
 	Formato CSS: Estilo_Blue.css - HEADER - São Paulo/22-10-2018 */
 		
 		#boton{
+			width: 232px;
 			padding: 4px 22px 4px 22px;
-			font-family: Georgia;
-			font-size: 16px;
+			font-family: Brush Script MT, Eduardian Script ITC;
+			font-size: 42px;
 			border-radius: 16px;	
-			border: 8px dashed #E6E6FA; 
-			background-color: #fff;			
+			border: 8px dotted #E6E6FA; 
+			background-color: #fff;	
+			color: #515245;		
 		}	
-		#boton:hover{border: 8px inset #7B68EE; color: #483D8B;}
+		#boton:hover{border: 8px groove #617485; color: #617485;}
 		#logotipo{
-			margin-top: 10%;
 			font-size: 52px;
 			text-align: center;
 		}
@@ -32,9 +33,8 @@
 			border-radius: 26px;
 		}
 		#social{
-			width: 42px;
-			height: 32px;
-			border-radius: 42px;
+			width: 52px;
+			border-radius: 12px;
 			-webkit-box-shadow: 0 40px 15px #F0FFFF;
 			box-shadow: 0 30px 15px #4682B4;
 		}
@@ -53,7 +53,7 @@
 	Formato CSS: Estilo_Blue.css - SECTION - São Paulo/22-10-2018 */
 		.box{ background-color: #607B8B; color: #fff; }
 		.grade {background-color: #fff;}
-		#contact{ 	width: 422px; height: 22px; font-size: 18px; }
+		#contact{ width: 422px; height: 22px; font-size: 18px; }
 		#label { 
 			margin-left: 42px; 
 			background-color: #607B8B; 
