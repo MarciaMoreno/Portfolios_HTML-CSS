@@ -1,10 +1,10 @@
 /****http://www.science-bluesky.com ***REVISÃO = 20/06/2024 sexta-feira 15h41min0s***
 	Formato CSS: Estilo_Blue.css - FONTES DO GOOGLE - Nazaré do Piauí / PI */
 
-	.cinzel {
+	.cinzel-<.tito>{
 		font-family: "Cinzel", serif;
 		font-optical-sizing: auto;
-		font-weight: <weight>:400;
+		font-weight:<weight>:400;
 		font-style: bold;
 	  }
 
