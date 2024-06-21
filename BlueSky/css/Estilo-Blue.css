@@ -24,11 +24,12 @@
 		.tito{ 
 			text-align: center;
 			text-transform: capitalize;
-			font-size: 42px;
+			font-size: 32px;
 			font-style: bold;
-			font-family: Bodoni MT Poster Compressed ;
+			font-family: "Cinzel", serif;
 			letter-spacing: 8px;
-			color: #A3ABB0;			
+			color: #fff;
+			text-shadow: 0 10px 10px #F0FFFF, 0 20px 20px #F0FFFF, 0 30px 30px #F0FFFF, 0 40px 40px #F0FFFF, 0 70px 70px #F0FFFF;			
 		}
 		.tela-fundo{
 			background-color: #617485;
