@@ -1,35 +1,41 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-	<HTML xmlns="http://www.w3.org/1999/xhtml">
-		<HEAD>
-			<META CHARSET="utf-8" />
-			<META http-equiv="Content-type" content="text/html" />
-			<META NAME="keywords" CONTENT="Ciencia, Biologia" />
-			<META NAME="description" CONTENT=" " />
-			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-			<TITLE>Blue Sky (Research TEAM)</TITLE>
-			<LINK REL="stylesheet" TYPE="text/css" HREF="Estilo-Blue.css" />
-			<LINK REL="stylesheet" TYPE="text/css" HREF="divgrid.css" />
-			<LINK REL="Stylesheet" HREF="css/Estilo-Blue.css" />
-			<LINK REL="Stylesheet" HREF="css/divgrid.css" />
-		</HEAD>		
-		<BODY>			
-			<header>														
-				<div class="flex social">						
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!--INSERINDO COMANDOS META-NAME-->
+		<meta charset="utf-8">
+		<meta http-equiv="Content-type" content="html/css">
+		<meta name="keywords" content="BlueSky">
+		<meta name="description" content="BlueSky">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Blue Sky (Research TEAM)</title>
+		<!--INSERINDO RELAÇÕES DE DIRETORIOS-->
+		<link rel="alternate" media="only screen and(max width: 640px)" href="http://m.(site.com)/">
+		<link rel="stylesheet" href="css/Estilo-Blue.css" type="text/css" media="screen projection">
+		<link rel="stylesheet" type="text/css" href="css/Estilo-Blue.css">
+		<link rel="stylesheet" type="text/css" href="css/divgrid.css">
+		<!--REALACIONANDO @GoogleFonts-->
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="linha">
+				<div class="col10 social">						
 					<ul>								
 						<li><a href="#"><img id="social" src="Objeto/Whats.png" alt="Whatsapp"></a></li>
 						<li><a href="#"><img id="social" src="Objeto/twitter.png" alt="Tweeter"></a></li>
 						<li><a href="#"><img id="social" src="Objeto/vp-face.png" alt="Facebook"></a></li>
 					</ul>						
 				</div>
-				<div class="flex">				
+				<div class="col10">				
 					<h1 id="logotipo"><B id="letra">B</B>lue <B id="letra">S</B>ky</h1>							
 				</div>									
-				<div class="linha tito">
+				<div class="col10 tito">
 					<p>Science and Technology Research Team</p>
 				</div>
-				<hr>	
-				<div class="linha">
-					<nav class="menu">
+				<div class="col10">
+					<nav class="menu" style="text-align:center;">
 						<ul>
 							<li><a href="index.html"><input id="boton" type="button" name="oneButton" value="HOME" /></a></li>
 							<li><a href="team-research.html"><input id="boton" type="button" name="oneButton" value="Grupo docente" /></a></li>
@@ -39,29 +45,15 @@
 							<li><a href="contato.html"><input id="boton" type="button" name="oneButton" value="Fale Conosco" /></a></li>		
 						</UL>
 					</nav>
-				</div>
-			</header>
-			<SECTION class="linha wrap">
-				<div class="login coluna col12">
-					<form method="POST" action="cadastro.php">
-						<label for="inputEmail" class="sr-only">Login</label><input type="text" name="login" id="login"><br><br>
-						<label>Senha</label><input type="password" name="senha" id="senha"><br><br>
-						<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
-					</form>
-				</div>
-				<p class="text_center text_danger">
-					<?php if(isset($_SESSION['loginErro'])){
-						echo $_SESSION['loginErro'];
-						unset($_SESSION['loginErro']);
-					}?>
-				</p>
-			</SECTION>
-			<br><br>
-			<footer>
-				<div class="linha">
-					<p>Copyright &copy; 2024/2026 - Blue Sky (Science & Tecnology)</b></p>
-				</div>
-			</footer>	
-			<br>
-		</BODY>
-	</HTML>
+				</div>	
+			</div>
+		</header>
+		<section>
+
+		</section>
+		<footer>
+
+		</footer>
+	</body>
+</html>
+	

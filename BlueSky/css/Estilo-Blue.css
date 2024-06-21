@@ -3,44 +3,63 @@
 
 /****http://www.science-bluesky.com ***REVISÃO = 20/06/2024 sexta-feira 15h41min0s***
 	Formato CSS: Estilo_Blue.css - body - Nazaré do Piauí / PI */
-	BODY{ background-color: #B0C4DE; }
-	h1,h2,h3,h4,h5 { color: #fff;}
+		BODY{ background-color: #B0C4DE; }
+		h1,h2,h3,h4,h5 { color: #fff;}
+
 /****http://www.science-bluesky.com ***REVISÃO = 20/06/2024 sexta-feira 15h41min0s***
 	Formato CSS: Estilo_Blue.css - header - Nazaré do Piauí / PI */
-.social ul li{ display: inline-block; }
-.menu ul li { display: inline-block;}
-.social{ margin: 20%;}
-.tito{ 
-	text-align: center; 
-	text-transform: capitalize;
-	font-size: 32px;
-	font-style: bold;
-	font-family: Bodoni MT Poster Compressed ;
-	letter-spacing: 8px;
-	color: #515245;
-}
-.tito p { text-align: center;}
-#letra{
-	font-family: Brush Script MT, Eduardian Script ITC;
-	font-size: 142px;
-	font-style: italic;
-	box-shadow: 0 40px 80px 15px #4682B4;
-	border-radius: 26px;
-}
-#logotipo{
-	font-size: 72px;
-	margin-left: 30%;
-}
-#social{
-	width: 52px;
-	border-radius: 12px;
-	-webkit-box-shadow: 0 40px 15px #F0FFFF;
-	box-shadow: 0 30px 15px #4682B4;
-}
-
-
+		.social ul li{ display: inline-block; }
+		.menu ul li { display: inline-block;}
+		.tito{ 
+			text-align: center;
+			text-transform: capitalize;
+			font-size: 32px;
+			font-style: bold;
+			font-family: Bodoni MT Poster Compressed ;
+			letter-spacing: 8px;
+			color: #515245;			
+		}
+		#boton{
+			margin-top: 2%;			
+			width: 232px;
+			padding: 4px 22px 4px 22px;
+			font-family: Brush Script MT, Eduardian Script ITC;
+			font-size: 42px;
+			border-radius: 16px;	
+			border: 8px dotted #E6E6FA; 
+			background-color: #fff;	
+			color: #515245;		
+		}	
+		#boton:hover{border: 8px groove #617485; color: #617485;}
+		#letra{
+			font-family: Brush Script MT, Eduardian Script ITC;
+			font-size: 142px;
+			font-style: italic;
+			box-shadow: 0 40px 80px 15px #4682B4;
+			border-radius: 26px;
+		}
+		#logotipo{
+			font-size: 72px;
+			margin-left: 10%;
+			text-align: center;
+		}
+		#social{
+			width: 52px;
+			border-radius: 12px;
+			-webkit-box-shadow: 0 40px 15px #F0FFFF;
+			box-shadow: 0 30px 15px #4682B4;
+		}
+	
 /****http://www.science-bluesky.com ***REVISÃO = 20/06/2024 sexta-feira 15h41min0s***
 	Formato CSS: Estilo_Blue.css - section - Nazaré do Piauí / PI */
-
+		div > #img-wrap{
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+		#img-wrap{
+			width: 90%;		
+			justify-content: center;
+		}
 /****http://www.science-bluesky.com ***REVISÃO = 20/06/2024 sexta-feira 15h41min0s***
 	Formato CSS: Estilo_Blue.css - footer - Nazaré do Piauí / PI */
